@@ -1,0 +1,327 @@
+*{
+    padding:0;
+    margin: 0;
+}
+.shift{
+    margin-left: 150px;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(11, 1fr);
+    grid-template-rows: 100px 500px 400px 500px 500px 500px;
+     /* border:1px solid transparent; */
+}
+.container2{
+    display:grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: 600px 600px 100px 400px 200px 300px 400px;
+}
+.container3{
+    display:grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: 700px;
+    background:#FFE01B;
+}
+.one img{
+    height:60%;
+}
+.one button{
+    padding:10px 30px 10px 30px;
+}
+
+.three img{
+     height:80%; 
+     width:70%; 
+}
+.one{ border:1px solid transparent;
+    grid-column:1/12;
+    font-size: 20px;
+    background: #FFE01B;
+}
+.one:hover{
+    background: #FFFFFF;
+}
+.one a{
+    margin-top: 20px;
+    margin-left: 5px;
+    text-decoration: none;
+}
+ .two{border:1px solid transparent;
+   grid-column:1/6;
+   text-align: center;
+   padding-top:120px;
+   background: #FFE01B;
+}
+.two a{
+    text-decoration: none;
+}
+ .three{border:1px solid transparent; 
+    background: #FFE01B;
+   grid-column:6/12;
+}
+.four{border:1px solid transparent;
+   grid-column:1/6;
+   text-align: center;
+}
+.four div{
+    border:1px solid green;
+    width:70%;
+    height:50%;
+    margin-top: 80px;
+    margin-left:100px;
+    background: #FFE01B;
+}
+.five{border:1px solid transparent;
+   grid-column:6/12;
+text-align:center;
+padding-top: 100px;
+}
+.six{border:1px solid transparent;
+   grid-column:1/6;
+   padding-left:50px;
+   padding-top: 20px;
+   background: #F9E0FA;
+}
+.six p{margin-top: 10px;
+}
+.seven{border:1px solid transparent;
+   grid-column:6/12;
+   background: #F9E0FA;
+}
+.seven img{
+    height:60%; 
+    width:50%; 
+    margin-top: 100px;
+    margin-left:100px;
+}
+.eight{border:1px solid transparent;
+   grid-column:1/6;
+   background: #FFFFFF;
+}
+.eight img, .eleven img, .thirteen img{
+    height:50%;
+    width:50%;
+    margin-top:100px;
+    margin-left:100px;
+}
+.nine{border:1px solid transparent;
+   grid-column:6/12;
+   background: #FFFFFF;
+}
+.nine p{
+    margin-top:10px;
+    font-size: 25px;
+}
+.ten{border:1px solid transparent;
+   grid-column:1/6;
+   padding-left:50px;
+   padding-top: 20px;
+   background: #FFFFFF;
+}
+.ten p{
+    margin-top:10px;
+}
+.eleven{border:1px solid transparent;
+  grid-column:6/12;
+  background: #FFFFFF;
+}
+.twelve{
+    border:1px solid transparent;
+    grid-column:1/4;
+    padding-left:80px;
+   padding-top: 20px;
+   background: #F6F6F4;
+}
+.twelve p,a{
+    margin-top:30px;
+}
+.thirteen{
+    border:1px solid transparent;
+    grid-column:4/8;
+    background: #F6F6F4;
+}
+
+.fourteen{
+    border:1px solid transparent;
+    grid-column: 1/4;
+    padding-left:80px;
+   padding-top: 20px;
+   background: #FFFFFF;
+}
+.fourteen h2{
+    font-size: 35px; margin-top: 30px;
+}
+.fourteen p{
+    font-size: 15px;
+    margin-top:20px;
+}
+.fifteen{
+    border:1px solid transparent;
+    grid-column: 4/8;
+    background: #FFFFFF;
+}
+.fifteen img{
+    height:65%;
+    width:50%;
+    margin-top:100px;
+    margin-left:100px;
+}
+.sixteen{
+    border:1px solid transparent;
+    grid-column:1/8;
+    background: #FFFFFF;
+}
+.sixteen h3{
+    text-align: center;
+    font-size: 35px;
+}
+
+.seventeen{
+    border:1px solid transparent;
+    grid-column: 1/3;
+    background: #FFFFFF;
+}
+.seventeen img, .eighteen img, .nineteen img{
+    height:50%;
+    width:70%;
+    margin-top:50px;
+    margin-left:90px;
+}
+.eighteen{
+    border:1px solid transparent;
+    grid-column:3/6;
+    background: #FFFFFF;
+}
+.nineteen{
+    border: 1px solid transparent;
+    grid-column: 6/8;
+    background: #FFFFFF;
+}
+.twenty{
+    border: 1px solid transparent;
+    grid-column:1/8;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    padding-top:50px;
+    background: #FFFFFF;
+}
+.twentyone{
+    border: 1px solid transparent;
+    grid-column:1/3;
+    background: #FFFFFF;
+}
+.twentytwo{
+    border: 1px solid transparent;
+    grid-column:3/4;
+    background: #FFFFFF;
+}
+.twentythree{
+    border: 1px solid transparent;
+    grid-column:4/5;
+    background: #FFFFFF;
+}
+.twentyfour{
+    border: 1px solid transparent;
+    grid-column:5/6;
+    background: #FFFFFF;
+}
+.twentyfive{
+    border: 1px solid transparent;
+    grid-column:6/8;
+    background: #FFFFFF;
+}
+.twentysix{
+    border: 1px solid transparent;
+    grid-column:1/8;
+    text-align: center;
+    background: #FFE01B;
+}
+.twentysix h1{
+    font-size:80px;
+    margin-top: 100px;
+}
+.twentysix p {
+    margin-top:20px;
+    font-size: 30px;
+}
+.twentysix button{
+    padding:20px 30px 20px 30px;
+    margin-top: 10px;
+}
+.twentyseven{
+    border: 1px solid green;
+    /* background: #FFE01B; */
+}
+.twentyone img, .twentytwo img, .twentythree img, .twentyfour img, .twentyfive img{
+    height:15%;
+    width:40%;
+    margin-top:150px;
+    margin-left:50px;
+}
+p{
+    font-size: 20px;
+}
+h1{
+    font-size:35px;
+}
+.two button, .six button, .nine button, .ten button, .fourteen button{
+    padding:10px 30px 10px 30px;
+    margin-top: 10px;
+}
+h2{font-size: 40px; margin-top: 30px;
+}
+h3{
+    font-size: 40px;
+    margin-top: 20px;
+}
+h4{
+    font-size: 40px;
+    margin-top: 20px;
+}
+.footerone{
+    border:1px solid transparent;
+    grid-column:2/4;
+    font-size: 35px;
+}
+.footerone img{
+    width:80%;
+    height:30%;
+    margin-top: 50px;
+}
+.footertwo{
+    border:1px solid transparent;
+    grid-column:4/5;
+}
+.footertwo p{
+    margin-top: 80px;
+}
+.footertwo a{
+    margin-bottom: 20px;
+}
+.footerthree{
+    border:1px solid transparent;
+    grid-column:5/6;
+}
+.footerfour{
+    border:1px solid transparent;
+    grid-column:6/7;
+}
+.footerfive{
+    border:1px solid transparent;
+    grid-column:7/8;
+}
+ul{
+margin-top: 80px;
+}
+li{
+    list-style-type: none;
+    margin-top: 10px;
+}
+li a, .seventeen a, .eighteen a, .nineteen a, .footerone a{
+    text-decoration: none;
+}
+.footerthree h1, .footerfour h1, .footerfive h1{
+    margin-top: 80px;
+}
